@@ -1,0 +1,29 @@
+In order to compile the program the following files:
+tHeader.cpp
+tHeader.h
+server.cpp 
+must be on afsaccess1.njit.edu
+
+and the following files:
+tHeader.cpp
+tHeader.h
+client.cpp 
+much be on another machine.(e.g afsaccess2)
+.
+.
+.
+.			
+Compile server with command: 
+g++ -std=c++0x tHeader.cpp server.cpp
+.
+.
+.
+.								
+Compile client on a different machine with command:
+g++ -std=c++0x tHeader.cpp client.cpp
+.
+.
+.
+Run the server first using command: 
+./a.out
+then the client with the same command.
